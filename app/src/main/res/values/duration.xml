@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="duration">
+
+        <!--1 hour-->
+        <item>3600</item>
+        <!--6 hour-->
+        <item>21600</item>
+        <!--12 hour-->
+        <item>43200</item>
+        <!--1 day-->
+        <item>86400</item>
+        <!--2 day-->
+        <item>172800</item>
+        <!--3 day-->
+        <item>259200</item>
+        <!--4 day-->
+        <item>345600</item>
+        <!--5 day-->
+        <item>432000</item>
+
+    </string-array>
+
+</resources>

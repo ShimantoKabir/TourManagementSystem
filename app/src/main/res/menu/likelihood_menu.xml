@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:title=""
+        android:icon="@drawable/location_icon"
+        android:id="@+id/location"/>
+    <item
+        android:title=""
+        android:icon="@drawable/nearby"
+        android:id="@+id/recent"/>
+
+    <item
+        android:title=""
+        android:icon="@drawable/pick_icon"
+        android:id="@+id/pick"/>
+
+</menu>

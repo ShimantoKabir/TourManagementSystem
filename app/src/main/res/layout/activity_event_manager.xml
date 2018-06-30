@@ -1,0 +1,239 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.maask.tourmanagementsystem.EventManagerActivity">
+
+    <android.support.v7.widget.Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:id="@+id/custom_toolbar"
+        android:background="@android:color/transparent"
+        app:popupTheme="@style/AppTheme"
+        app:theme="@style/ToolbarColoredBackArrow"/>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/toolbar_bottom_border"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/tour_name"
+                android:textStyle="bold"
+                android:fontFamily="sans-serif-condensed"
+                android:paddingTop="10dp"
+                android:paddingBottom="5dp"
+                android:textSize="20sp"
+                android:textAlignment="center"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Chittagong Tour"/>
+
+            <TextView
+                android:id="@+id/tour_budget"
+                android:textAlignment="center"
+                android:fontFamily="sans-serif-condensed"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Budget : 2344 TK"/>
+
+            <TextView
+                android:id="@+id/tour_expense"
+                android:textAlignment="center"
+                android:fontFamily="sans-serif-condensed"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Total Expense : 0 TK"/>
+
+            <TextView
+                android:id="@+id/tour_deposit"
+                android:textAlignment="center"
+                android:fontFamily="sans-serif-condensed"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Deposit : Fool"/>
+
+
+                <com.github.mikephil.charting.charts.PieChart
+                    android:layout_marginTop="10dp"
+                    android:layout_height="200dp"
+                    android:layout_width="200dp"
+                    android:layout_marginBottom="10dp"
+                    android:layout_gravity="center_horizontal"
+                    android:id="@+id/pie_chart"/>
+
+            <!--expenditure view-->
+
+            <LinearLayout
+                android:id="@+id/expenditure_view"
+                android:padding="10dp"
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                
+                <TextView
+                    android:layout_weight="3"
+                    android:text="Expenditure"
+                    android:fontFamily="sans-serif-condensed"
+                    android:textSize="20sp"
+                    android:layout_width="100dp"
+                    android:layout_height="match_parent" />
+
+                <ImageView
+                    android:layout_gravity="end"
+                    android:layout_marginTop="5dp"
+                    android:id="@+id/expenditure_arrow"
+                    android:layout_weight="1"
+                    android:src="@drawable/drop_down_icon"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent" />
+                
+            </LinearLayout>
+
+            <View
+                android:id="@+id/border_bellow_expenditure"
+                android:layout_marginRight="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/radius_border"/>
+
+            <!--expenditure item-->
+            <LinearLayout
+                android:id="@+id/expenditure_item"
+                android:padding="10dp"
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/add_expense"
+                    android:fontFamily="sans-serif-condensed"
+                    android:textAlignment="center"
+                    android:layout_weight="1"
+                    android:drawableTop="@drawable/expense_icon"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Add Expense"/>
+
+                <View
+                    android:layout_width="1dp"
+                    android:layout_height="match_parent"
+                    android:background="@color/radius_border"/>
+
+                <TextView
+                    android:id="@+id/add_budget"
+                    android:fontFamily="sans-serif-condensed"
+                    android:textAlignment="center"
+                    android:layout_weight="1"
+                    android:drawableTop="@drawable/budget_icon"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Add Budget"/>
+
+                <View
+                    android:layout_width="1dp"
+                    android:layout_height="match_parent"
+                    android:background="@color/radius_border"/>
+
+                <TextView
+                    android:id="@+id/expense_history"
+                    android:fontFamily="sans-serif-condensed"
+                    android:textAlignment="center"
+                    android:layout_weight="1"
+                    android:drawableTop="@drawable/history_icon"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Exp History"/>
+
+            </LinearLayout>
+
+            <!--moments view-->
+
+            <LinearLayout
+                android:id="@+id/moments_view"
+                android:padding="10dp"
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:layout_weight="3"
+                    android:text="Moments    "
+                    android:fontFamily="sans-serif-condensed"
+                    android:textSize="20sp"
+                    android:layout_width="100dp"
+                    android:layout_height="match_parent" />
+
+                <ImageView
+                    android:layout_gravity="end"
+                    android:layout_marginTop="5dp"
+                    android:id="@+id/moment_arrow"
+                    android:layout_weight="1"
+                    android:src="@drawable/drop_down_icon"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent" />
+
+            </LinearLayout>
+
+            <View
+                android:id="@+id/border_bellow_moment"
+                android:layout_marginRight="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/radius_border"/>
+            <!--moments item-->
+            <LinearLayout
+                android:id="@+id/moments_item"
+                android:padding="10dp"
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/capture_upload_img"
+                    android:fontFamily="sans-serif-condensed"
+                    android:textAlignment="center"
+                    android:layout_weight="1"
+                    android:drawableTop="@drawable/camera_icon"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Take Photo"/>
+
+                <View
+                    android:layout_width="1dp"
+                    android:layout_height="match_parent"
+                    android:background="@color/radius_border"/>
+
+                <TextView
+                    android:id="@+id/view_moments"
+                    android:fontFamily="sans-serif-condensed"
+                    android:textAlignment="center"
+                    android:layout_weight="1"
+                    android:drawableTop="@drawable/gellery_icon"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="View Gallery"/>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+
+</LinearLayout>

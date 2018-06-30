@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="70dp">
+
+    <LinearLayout
+        android:padding="10dp"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:textStyle="bold"
+            android:id="@+id/date"
+            android:fontFamily="sans-serif-condensed"
+            android:textColor="@color/radius_border"
+            android:padding="2dp"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:text="Date"/>
+
+        <TextView
+            android:textStyle="italic"
+            android:id="@+id/time"
+            android:fontFamily="sans-serif-condensed"
+            android:textColor="@color/radius_border"
+            android:padding="2dp"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:text="Time"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:padding="10dp"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:textStyle="bold"
+            android:id="@+id/temp"
+            android:fontFamily="sans-serif-condensed"
+            android:textColor="@color/radius_border"
+            android:padding="2dp"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:text="temp"/>
+
+        <TextView
+            android:textStyle="italic"
+            android:id="@+id/status"
+            android:fontFamily="sans-serif-condensed"
+            android:textColor="@color/radius_border"
+            android:padding="2dp"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:text="status"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/icon"
+            android:paddingRight="20dp"
+            android:layout_gravity="center_horizontal|center_vertical"
+            android:src="@drawable/na"
+            android:layout_width="100dp"
+            android:layout_height="match_parent" />
+
+    </LinearLayout>
+
+</LinearLayout>

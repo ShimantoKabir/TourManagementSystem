@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">TmsBook</string>
+    <string name="google_map_api">AIzaSyDYtzdnIZlfODIVgdTJmA8eYPVHkEtKsO8</string>
+    <string name="direction_api">AIzaSyAOqYs1LG_7W3s4VrVU_Pypa4BycAx64R8</string>
+    <string name="nearby_api">AIzaSyA7Jl1vc_oqSNfq12DpEEFw0rLwPGfIhFw</string>
+    <string name="distance_api">AIzaSyB15az-o_yi31bmQk9CQsfkusJjE2XCruU</string>
+    <string name="weather_api_key">7fe995edee045764aeed8abc966ea5d5</string>
+    <string name="search_hint">Search Your City .. </string>
+    <string name="facebook_app_id">152772315383650</string>
+    <string name="geo_code_api">AIzaSyAf1KXp-KKJUbfMoiGYdcM9cjdCMJZxsTo</string>
+
+</resources>

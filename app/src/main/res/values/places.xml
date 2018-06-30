@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="places">
+        <item>mosque</item>
+        <item>museum</item>
+        <item>park</item>
+        <item>pharmacy</item>
+        <item>subway_station</item>
+        <item>supermarket</item>
+        <item>train_station</item>
+        <item>embassy</item>
+        <item>gym</item>
+        <item>hindu_temple</item>
+        <item>local_government_office</item>
+        <item>bus_station</item>
+    </string-array>
+
+</resources>

@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/set_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Add New Event"
+        android:padding="23dp"
+        android:textAlignment="center"
+        android:fontFamily="sans-serif-condensed"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:textColor="@android:color/white"
+        android:background="@color/colorPrimary"/>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:padding="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:paddingLeft="20dp"
+            android:paddingBottom="20dp"
+            android:hint="Enter event name"
+            android:id="@+id/event_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <EditText
+            android:paddingLeft="20dp"
+            android:paddingBottom="20dp"
+            android:hint="Enter Start Location"
+            android:id="@+id/start_location"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <EditText
+            android:paddingLeft="20dp"
+            android:paddingBottom="20dp"
+            android:hint="Enter Your Destination"
+            android:id="@+id/end_location"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <EditText
+            android:paddingLeft="20dp"
+            android:paddingBottom="20dp"
+            android:hint="Enter Your Estimated Budget"
+            android:inputType="number"
+            android:id="@+id/event_budget"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <EditText
+            android:focusable="false"
+            android:paddingLeft="20dp"
+            android:paddingBottom="20dp"
+            android:hint="Departure Data"
+            android:id="@+id/departure_date"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+
+</LinearLayout>

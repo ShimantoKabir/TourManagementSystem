@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:padding="20dp"
+    android:background="?attr/selectableItemBackground"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <ImageView
+        android:layout_gravity="center_vertical"
+        android:layout_weight="1"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:src="@drawable/expense_icon"/>
+
+    <LinearLayout
+        android:paddingLeft="10dp"
+        android:orientation="vertical"
+        android:layout_weight="6"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/ex_title"
+            android:layout_width="220dp"
+            android:layout_height="wrap_content"
+            android:text="Expanse Title"
+            android:fontFamily="sans-serif-condensed"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/ex_amount"
+            android:layout_width="220dp"
+            android:layout_height="match_parent"
+            android:text="Amount : 10000 TK"
+            android:fontFamily="sans-serif-condensed"/>
+
+        <TextView
+            android:id="@+id/ex_create"
+            android:layout_width="220dp"
+            android:layout_height="match_parent"
+            android:text="Date : null "
+            android:fontFamily="sans-serif-condensed"/>
+
+    </LinearLayout>
+
+    <ImageView
+        android:layout_gravity="center_vertical"
+        android:layout_weight="1"
+        android:layout_width="0dp"
+        android:id="@+id/edit_expense"
+        android:layout_height="wrap_content"
+        android:src="@drawable/edit_icon"/>
+
+    <ImageView
+        android:layout_gravity="center_vertical"
+        android:layout_weight="1"
+        android:layout_width="0dp"
+        android:id="@+id/delete_expense"
+        android:layout_height="wrap_content"
+        android:src="@drawable/delete_icon"/>
+
+</LinearLayout>

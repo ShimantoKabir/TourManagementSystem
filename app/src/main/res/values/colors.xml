@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#FFA000</color>
+    <color name="colorPrimaryDark"></color>
+    <color name="deeppurple">#7c4dff</color>
+    <color name="yello">#ffb300</color>
+    <color name="green">#00bfa5</color>
+    <color name="darkblue">#23283a</color>
+    <color name="testcolorblue">#152b38</color>
+    <color name="pink">#FF4081</color>
+
+    <color name="black_overlay">#66000000</color>
+    <color name="toolbar_bottom_border">#66dedede</color>
+    <color name="radius_border">#c2c2c2</color>
+    <color name="next_button_color">#666666</color>
+    <color name="next_button_background">#dce4f0ff</color>
+    <color name="colorAccent">#767676</color>
+    <color name="username_bg">#dfdede</color>
+
+    <color name="facebookBlue">#3F5996</color>
+
+</resources>

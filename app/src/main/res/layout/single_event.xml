@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:background="?attr/selectableItemBackground"
+    android:layout_height="wrap_content">
+
+
+    <RelativeLayout
+        android:padding="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:layout_weight="1"
+                android:padding="15dp"
+                android:orientation="vertical"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent">
+
+                <ImageView
+                    android:layout_marginRight="10dp"
+                    android:id="@+id/edit_event"
+                    android:layout_weight="1"
+                    android:src="@drawable/edit_icon"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+                <View
+                    android:background="@color/radius_border"
+                    android:layout_width="30dp"
+                    android:layout_marginRight="5dp"
+                    android:layout_height="1dp"/>
+
+                <ImageView
+                    android:layout_marginRight="10dp"
+                    android:id="@+id/delete_event"
+                    android:layout_weight="1"
+                    android:src="@drawable/delete_icon"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_weight="113"
+                android:orientation="vertical"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:fontFamily="sans-serif-condensed"
+                    android:id="@+id/show_event_name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Event Name : "/>
+
+                <TextView
+                    android:paddingTop="5dp"
+                    android:fontFamily="sans-serif-condensed"
+                    android:id="@+id/show_created_date"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Event Created : "/>
+
+                <TextView
+                    android:paddingTop="5dp"
+                    android:fontFamily="sans-serif-condensed"
+                    android:id="@+id/show_departure_date"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Event Departure Data : "/>
+
+                <TextView
+                    android:paddingTop="5dp"
+                    android:fontFamily="sans-serif-condensed"
+                    android:id="@+id/show_start_location"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Start Location : "/>
+
+                <TextView
+                    android:paddingTop="5dp"
+                    android:fontFamily="sans-serif-condensed"
+                    android:id="@+id/show_end_location"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Destination : "/>
+
+                <TextView
+                    android:paddingTop="5dp"
+                    android:fontFamily="sans-serif-condensed"
+                    android:id="@+id/show_event_budget"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Budget : "/>
+
+
+            </LinearLayout>
+
+
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/left_days"
+            android:fontFamily="sans-serif-condensed"
+            android:textStyle="bold|italic"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Days left"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="true"/>
+
+        <ImageView
+            android:id="@+id/enter_this_event"
+            android:layout_alignParentRight="true"
+            android:src="@drawable/event_icon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+    </RelativeLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/radius_border"/>
+
+</LinearLayout>

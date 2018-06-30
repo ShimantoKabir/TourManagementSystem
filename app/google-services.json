@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "73923617054",
+    "firebase_url": "https://tour-management-system-2197e.firebaseio.com",
+    "project_id": "tour-management-system-2197e",
+    "storage_bucket": "tour-management-system-2197e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:73923617054:android:b09eb625ae44e1fa",
+        "android_client_info": {
+          "package_name": "com.example.maask.tourmanagementsystem"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "73923617054-o7cbechef8qmhour3jjk6t054oqegtic.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.maask.tourmanagementsystem",
+            "certificate_hash": "8ae1e6ad495c15256272d894b5b70e28991000dd"
+          }
+        },
+        {
+          "client_id": "73923617054-68p7sjncm33h2lniinjdv4cc5n58lao9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCIGMtig-72ddWTlj9nNoRVxdSfymBZc10"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "73923617054-68p7sjncm33h2lniinjdv4cc5n58lao9.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

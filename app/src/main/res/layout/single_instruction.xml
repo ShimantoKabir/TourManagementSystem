@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:padding="10dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+
+    <LinearLayout
+        android:padding="20dp"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+        <ImageView
+            android:layout_gravity="center_horizontal|center_vertical"
+            android:layout_weight="1"
+            android:layout_width="20dp"
+            android:layout_height="wrap_content"
+            android:src="@drawable/instruction_icon_for_list_view"/>
+
+        <View
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:background="@color/colorPrimary"/>
+
+        <TextView
+            android:textStyle="italic|bold"
+            android:paddingLeft="20dp"
+            android:fontFamily="sans-serif-condensed"
+            android:id="@+id/ins"
+            android:layout_weight="5"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="Instruction"/>
+
+    </LinearLayout>
+
+
+
+</LinearLayout>

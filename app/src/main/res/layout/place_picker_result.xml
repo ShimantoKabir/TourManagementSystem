@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Place Information"
+        android:padding="23dp"
+        android:textAlignment="center"
+        android:fontFamily="sans-serif-condensed"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:textColor="@android:color/white"
+        android:background="@color/colorPrimary"/>
+
+    <LinearLayout
+        android:padding="20dp"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="150dp">
+
+            <ProgressBar
+                android:id="@+id/picker_image_loader"
+                android:layout_centerVertical="true"
+                android:layout_centerHorizontal="true"
+                android:layout_width="100dp"
+                android:layout_height="100dp" />
+
+            <ImageView
+                android:id="@+id/picker_image"
+                android:layout_width="match_parent"
+                android:layout_height="150dp"/>
+
+        </RelativeLayout>
+
+
+        <TextView
+            android:textAlignment="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Name : Ahar gonona"
+            android:fontFamily="sans-serif-condensed"
+            android:id="@+id/picker_name"
+            android:layout_marginTop="30dp" />
+
+        <TextView
+            android:textAlignment="center"
+            android:layout_marginTop="7dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Address : pulpar road dhaka"
+            android:fontFamily="sans-serif-condensed"
+            android:id="@+id/picker_address" />
+
+        <TextView
+            android:textAlignment="center"
+            android:layout_marginTop="7dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Phone Number : 01751117996"
+            android:fontFamily="sans-serif-condensed"
+            android:id="@+id/picker_pho" />
+
+        <TextView
+            android:textAlignment="center"
+            android:layout_marginTop="7dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Rating : 5"
+            android:fontFamily="sans-serif-condensed"
+            android:id="@+id/picker_rating" />
+
+
+    </LinearLayout>
+
+</LinearLayout>
